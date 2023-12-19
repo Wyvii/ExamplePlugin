@@ -41,7 +41,7 @@ public class EconomyCommand extends BaseCommand {
         }
 
         final BukkitUser userA = userManager.query(sender.getUniqueId());
-        final BukkitUser userB = userManager.query(sender.getUniqueId());
+        final BukkitUser userB = userManager.query(receiver.getUniqueId());
 
         if (userA.getUniqueId() == userB.getUniqueId()) {
             sender.sendMessage(ColorUtil.colorize("&cYou cannot send gold to yourself"));

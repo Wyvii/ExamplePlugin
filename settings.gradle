@@ -1,0 +1,5 @@
+rootProject.name = 'ExamplePlugin'
+include 'Framework'
+include 'User'
+include 'Command'
+

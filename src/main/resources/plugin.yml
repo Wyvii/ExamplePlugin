@@ -1,0 +1,4 @@
+name: ExamplePlugin
+version: '${version}'
+main: me.ashydev.exampleplugin.ExamplePlugin
+api-version: '1.20'
